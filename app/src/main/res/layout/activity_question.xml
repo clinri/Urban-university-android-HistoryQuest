@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".QuestionActivity">
+
+    <TextView
+        android:id="@+id/questionTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="24dp"
+        tools:text="Вопрос" />
+
+    <RadioGroup
+        android:id="@+id/questItemRG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/firstAnswerVariantRB"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:text="Вариант ответа 1" />
+
+        <RadioButton
+            android:id="@+id/secondAnswerVariantRB"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:text="Вариант ответа 2" />
+
+        <RadioButton
+            android:id="@+id/thirdAnswerVariantRB"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:text="Вариант ответа 3" />
+    </RadioGroup>
+</LinearLayout>
